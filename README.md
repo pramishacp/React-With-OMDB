@@ -3,7 +3,7 @@
 Using (http://www.omdbapi.com) OMDB API, create an app that does search for all titles matching user input and displays UI based on output from said API.
 </p>
 
-![OMDB-gif](./src/assets/images/moviefinder.gif)
+![OMDB-gif](./omdb.png)
 
 ## Project Setup
 
