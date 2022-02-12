@@ -7,10 +7,7 @@ class MoviesTable extends Component {
     {
       path: "Poster",
       label: "Poster",
-      content: movie => {
-        console.log('HI', JSON.stringify(movie))
-      return (<Image src={movie.Poster} /> )
-      }
+      content: movie => <Image src={movie.Poster} /> 
     },
     { path: "Title", label: "Title" },
     { path: "Year", label: "Year" },
@@ -19,9 +16,6 @@ class MoviesTable extends Component {
 
   render() {
     const { movies, onSort, sortColumn } = this.props;
-
-    console.log(this.props, )
-    console.log('hihihi', movies)
 
     return (
       <Table

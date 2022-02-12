@@ -26,8 +26,6 @@ class TableHeader extends Component {
 
   render() {
 
-    console.log('TableBody 2', this.props, typeof(this.props), JSON.stringify(this.props))
-
     return (
       <thead>
         <tr>
