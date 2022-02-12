@@ -1,38 +1,37 @@
-# React App Calling OMDB API
-
-Using  [OMDB API](http://www.omdbapi.com), create an app that does search for all titles matching user input and displays UI based on output from said API.
+<h1 align="center">Welcome to React + OMDB API 👋</h1>
+<p>
+Using (http://www.omdbapi.com) OMDB API, create an app that does search for all titles matching user input and displays UI based on output from said API.
+</p>
 
 ![OMDB-gif](./src/assets/images/moviefinder.gif)
 
-## Getting Started 
+## Project Setup
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-What things you need installed on your local machine.
-
+### Install
 ```
-Text editor (VSCode)
+create-react-app
 npm
 git
 ```
-
-### How To:
-
-To use the app, visit the web link in the short description above. If you would like to try it on your own:
-
+### RUN
 ```
-1. Clone repo
-2. Run 'npm install' on your local repo so as to get the required dependencies
-3. Update .env.development with your API Key
-3. Launch application with 'npm start'
+# npm install
+# Update .env.development with your API Key
+# npm start
+```
+### Test
+```
+http://localhost:3000
 ```
 
-## Authors 💻
+## Author
 
-- **Pramisha C P** 
+👤 **Pramisha C P**
 
-## Acknowledgments 🗣️
+* Website: www.pramisha.cp
+* Github: [@pramishacp](https://github.com/pramishacp)
+* LinkedIn: [@pramishacp](https://linkedin.com/in/pramishacp)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Show your support
+
+Give a ⭐️ if this project helped you!
